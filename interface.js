@@ -241,7 +241,7 @@ function presently() {
 function copyright() {
 	document.writeln('<p>&nbsp;')
 	document.writeln('<p>&nbsp;')
-	document.writeln('<p>w3craft.ru, 2003.')
+	document.writeln('<p>И.&nbsp;Юнушев, 2003.')
 }
 
 // ----------------------------------------------------------------------
