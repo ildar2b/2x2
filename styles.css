@@ -1,0 +1,113 @@
+/* Шрифт и поля документа */
+Body {
+margin-top:      10;
+margin-bottom:   10;
+margin-left:     15;
+margin-right:    10;
+font-family:   Times New Roman;
+font-size:     12pt;
+background-color: "FFFFFF";
+}
+
+
+
+/* Название программы и отчета о прохождении уровня */
+H1 {
+font-family:  Arial;
+font-size:     120%;
+line-height:   100%;
+text-align:  center;
+text-indent:      0;
+font-weight:   bold;
+margin-top:    20pt;
+margin-bottom: 20pt;
+}
+
+/* Текст задания */
+H1.Zadanie {
+/*font-size:     250%;*/
+font-size:     500%;
+line-height:   100%;
+/*margin-top:   100pt;
+margin-bottom: 120pt;*/
+margin-top:   30pt;
+margin-bottom: 20pt;
+
+}
+
+/* Результат: "Верно!" или "Ошибка." */
+H1.Rezultat {
+/*font-size:     160%;*/
+font-size:     320%;
+margin-top:    50pt;
+margin-bottom: 70pt;
+}
+
+
+
+/* Весь остальной текст, кроме заголовков и таблицы */
+P {
+font-size:     105%;
+line-height:   100%;
+text-align:  center;
+text-indent:    0pt;
+margin-top:       6;
+margin-bottom:    6;
+margin-left:      0;
+margin-right:     0;
+}
+
+
+
+/* Таблица о прохождении уровня: по умолчанию */
+Td {
+font-size:     13pt;
+line-height:    85%;
+text-align:  center;
+text-indent:    0pt;
+margin-top:      16;
+margin-bottom:   16;
+margin-left:      0;
+margin-right:     0;
+background: "FFFF99";
+}
+
+/* Таблица: шапка и итоги */
+Td.B {
+font-weight:   bold;
+}
+
+/* Таблица: столбец "Затраченное время" */
+Td.R {
+text-align:   right;
+}
+
+/* Таблица: шапка и итоги столбца "Затраченное время" */
+Td.RB {
+text-align:   right;
+font-weight:   bold;
+}
+
+
+
+/* Кнопки и поле ввода */
+form {
+text-align:  center;
+}
+
+
+
+a:link {
+ color:Black;
+ text-decoration:none
+}
+
+a:visited {
+ color:Black;
+ text-decoration:none
+}
+
+a:hover {
+ color:Black;
+ text-decoration:none
+}

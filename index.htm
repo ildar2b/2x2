@@ -1,0 +1,59 @@
+<Html>
+<Head>
+
+  <Title>Считаем в уме</Title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <Link Rel="stylesheet" HREF="styles.css" TYPE="text/css">
+
+  <script type="text/javascript" src="interface.js"></script>
+  <script type="text/javascript" src="cookie.js"></script>
+
+  <script type="text/javascript" src="Data/data.00"></script>
+  <script>db_open()</script>
+
+</Head>
+
+
+<Body>
+<script>
+
+// Счетчик пройденных уровней Best_level
+// и текущий уровень Level инициализируются в db_open()
+
+// Счетчик заданий (циклов). Инициализация.
+if (!get_cookie('Zadanie')) {
+   set_cookie('Zadanie', 0)
+}
+
+
+// Значение cookie-перменной Mess устанавливается
+// при нажатии на кнопки выбора (например, Старт, Стоп)
+// После чего выполняется перезагрузка index.htm
+// Таким образом производится вызов нужной функции
+
+// Первое Событие для этого задания. Инициализация.
+if (!get_cookie('Mess')) {
+   set_cookie('Mess', 1)
+}
+
+
+// Выбор функции
+var sN = get_cookie('Mess')
+
+switch (sN) {
+  case "1" : db_choice();    break;
+  case "2" : level_info();  break;
+  case "3" : dano();         break;
+  case "4" : vvod();         break;
+  case "5" : rezultat();     break;
+  case "6" : report();       break;
+  case "7" : start_zadan(); break;
+}
+
+</script>
+
+
+</Body>              
+</Html>
