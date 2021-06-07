@@ -26,7 +26,7 @@ margin-bottom: 20pt;
 /* Текст задания */
 H1.Zadanie {
 /*font-size:     250%;*/
-font-size:     500%;
+font-size:     200%;
 line-height:   100%;
 /*margin-top:   100pt;
 margin-bottom: 120pt;*/
@@ -38,7 +38,7 @@ margin-bottom: 20pt;
 /* Результат: "Верно!" или "Ошибка." */
 H1.Rezultat {
 /*font-size:     160%;*/
-font-size:     320%;
+font-size:     200%;
 margin-top:    50pt;
 margin-bottom: 70pt;
 }
@@ -61,7 +61,7 @@ margin-right:     0;
 
 /* Таблица о прохождении уровня: по умолчанию */
 Td {
-font-size:     13pt;
+font-size:     12pt;
 line-height:    85%;
 text-align:  center;
 text-indent:    0pt;
